@@ -169,8 +169,8 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="BossPlayerCollision.cpp" />
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp" />
-    <ClCompile Include="Collision.cpp" />
     <ClCompile Include="Global.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Player.cpp" />
@@ -178,6 +178,7 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
   <ItemGroup>
     <ClInclude Include="..\DirectXGame\3d\Camera.h" />
     <ClInclude Include="Boss.h" />
+    <ClInclude Include="BossPlayerCollision.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\math\Matrix4x4.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector2.h" />
@@ -204,7 +205,6 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClInclude Include="C:\KamataEngine\DirectXGame\input\Input.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\scene\GameScene.h" />
     <ClInclude Include="C:\KamataEngine\Adapter\Novice.h" />
-    <ClInclude Include="Collision.h" />
     <ClInclude Include="Global.h" />
     <ClInclude Include="Player.h" />
   </ItemGroup>
